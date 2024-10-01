@@ -1,5 +1,6 @@
 print('Initializing the package')
 
-from SlotMachine import slotMachine
+
+from .slotMachine import SlotMachine
 
 __all__ = ['SlotMachine']
